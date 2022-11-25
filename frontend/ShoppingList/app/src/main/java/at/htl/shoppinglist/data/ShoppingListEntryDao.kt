@@ -16,8 +16,8 @@ interface ShoppingListEntryDao {
     @Query("SELECT * FROM $DATABASE_SHOPPING_LIST_ENTRY_TABLE ORDER BY id ASC")
     fun getAllEntries(): Flow<List<ShoppingListEntry>>
 
-    @Query("SELECT * FROM $DATABASE_SHOPPING_LIST_ENTRY_TABLE WHERE id=:id")
-    fun getSelectedEntry(id: Int): Flow<ShoppingListEntry>
+    @Query("SELECT * FROM $DATABASE_SHOPPING_LIST_ENTRY_TABLE WHERE id=:entryId")
+    fun getSelectedEntry(entryId: Int): Flow<ShoppingListEntry>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun addEntry(shoppingListEntry: ShoppingListEntry)
