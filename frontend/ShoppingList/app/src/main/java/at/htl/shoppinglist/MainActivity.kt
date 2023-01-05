@@ -3,30 +3,31 @@ package at.htl.shoppinglist
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.activity.viewModels
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.rememberNavController
-import at.htl.shoppinglist.navigation.SetupNavigation
-import at.htl.shoppinglist.ui.theme.ShoppingListTheme
+import at.htl.shoppinglist.ui.screens.list.DrinkList
+import at.htl.shoppinglist.ui.viewmodels.DrinkViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private lateinit var navController: NavHostController
+    private val drinkViewModel by viewModels<DrinkViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ShoppingListTheme {
-                navController = rememberNavController()
-                SetupNavigation(navController = navController)
+//            TODO update when continuing with the tutorial
+//            ShoppingListTheme {
+//                navController = rememberNavController()
+//                SetupNavigation(navController = navController)
+//            }
+            Surface(color = MaterialTheme.colors.background) {
+                DrinkList(drinkList = drinkViewModel.drinkListResponse)
+                drinkViewModel.getDrinkList()
             }
         }
     }
