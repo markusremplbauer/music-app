@@ -18,7 +18,7 @@ class DrinkViewModel: ViewModel() {
             val apiService = DrinkApiService.getInstance()
 
             try {
-                val drinksDto = apiService.getMojitos()
+                val drinksDto = apiService.getDrinks()
                 drinkListResponse = drinksDto.drinks
             } catch (e: Exception) {
                 errorMessage = e.message.toString()

@@ -7,8 +7,8 @@ import retrofit2.http.GET
 
 interface DrinkApiService {
 
-    @GET("search.php?s=mojito")
-    suspend fun getMojitos(): DrinksDto
+    @GET("search.php?s=")
+    suspend fun getDrinks(): DrinksDto
 
     companion object {
         private var apiService: DrinkApiService? = null
