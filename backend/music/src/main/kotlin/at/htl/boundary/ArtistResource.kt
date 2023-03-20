@@ -26,15 +26,21 @@ class ArtistResource {
 
     @GET
     fun getAll(): Response {
-        var list = artistRepository.listAll()
+        val list = artistRepository.listAll()
         return Response.ok(list).build()
     }
 
     @GET
     @Path("/{id}")
     fun getById(@PathParam("id") id: Long): Response {
-        var artist = artistRepository.findById(id)
-        return Response.ok(artist).build()
+        val artist = artistRepository.findById(id)
+
+        return when (artist) {
+            null -> Response.status(Response.Status.NOT_FOUND).build()
+            else -> {
+                Response.ok(artist).build()
+            }
+        }
     }
 
     @POST
@@ -43,22 +49,24 @@ class ArtistResource {
         val artist = Artist(artistDto.firstName, artistDto.lastName, artistDto.alias, artistDto.info)
         artistRepository.persist(artist)
 
-        return Response.status(Response.Status.CREATED)
-            .location(
-                UriBuilder.fromResource(ArtistResource::class.java)
-                    .path(artist.id.toString()).build()
-            )
-            .build()
+        return Response.created(
+            UriBuilder.fromMethod(ArtistResource::class.java, "getById")
+                .build(artist.id)
+        ).build()
     }
 
     @DELETE
     @Path("/{id}")
     @Transactional
     fun deleteById(@PathParam("id") id: Long): Response {
-        var artist = artistRepository.findById(id)
-        if (artist != null) {
-            artistRepository.delete(artist)
+        val artist = artistRepository.findById(id)
+
+        return when (artist) {
+            null -> Response.status(Response.Status.NOT_FOUND).build()
+            else -> {
+                artistRepository.delete(artist)
+                Response.noContent().build()
+            }
         }
-        return Response.ok(artist).build()
     }
 }
