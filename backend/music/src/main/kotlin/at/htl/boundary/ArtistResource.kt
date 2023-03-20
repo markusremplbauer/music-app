@@ -26,8 +26,8 @@ class ArtistResource {
 
     @GET
     fun getAll(): Response {
-        val list = artistRepository.listAll()
-        return Response.ok(list).build()
+        val artists = artistRepository.listAll()
+        return Response.ok(artists).build()
     }
 
     @GET
@@ -47,6 +47,7 @@ class ArtistResource {
     @Transactional
     fun add(artistDto: ArtistDto): Response {
         val artist = Artist(artistDto.firstName, artistDto.lastName, artistDto.alias, artistDto.info)
+
         artistRepository.persist(artist)
 
         return Response.created(
