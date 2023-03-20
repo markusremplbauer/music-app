@@ -21,6 +21,7 @@ class GenreResource {
     @GET
     fun getAll(): Response {
         val genres = genreRepository.listAll()
+
         return Response.ok(genres).build()
     }
 

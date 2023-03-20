@@ -17,4 +17,13 @@ public class Song extends PanacheEntity {
 
     @ManyToOne
     public Artist artist;
+
+    public Song() {
+    }
+
+    public Song(String title, Artist artist, List<Genre> genres) {
+        this.title = title;
+        this.artist = artist;
+        this.genres = genres;
+    }
 }

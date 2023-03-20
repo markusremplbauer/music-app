@@ -1,59 +1,67 @@
 package at.htl.boundary
 
 import at.htl.boundary.dto.ArtistDto
+import at.htl.boundary.dto.SongDto
 import at.htl.control.ArtistRepository
+import at.htl.control.GenreRepository
+import at.htl.control.SongRepository
 import at.htl.entity.Artist
+import at.htl.entity.Song
 import javax.inject.Inject
 import javax.transaction.Transactional
-import javax.ws.rs.Consumes
-import javax.ws.rs.DELETE
-import javax.ws.rs.GET
-import javax.ws.rs.POST
-import javax.ws.rs.Path
-import javax.ws.rs.PathParam
-import javax.ws.rs.Produces
+import javax.ws.rs.*
 import javax.ws.rs.core.MediaType
 import javax.ws.rs.core.Response
 import javax.ws.rs.core.UriBuilder
 
-@Path("/artist")
+@Path("/song")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
-class ArtistResource {
+class SongResource {
+
+    @Inject
+    lateinit var songRepository: SongRepository
 
     @Inject
     lateinit var artistRepository: ArtistRepository
 
+    @Inject
+    lateinit var genreRepository: GenreRepository
+
     @GET
     fun getAll(): Response {
-        val artists = artistRepository.listAll()
+        val songs = songRepository.listAll()
 
-        return Response.ok(artists).build()
+        return Response.ok(songs).build()
     }
 
     @GET
     @Path("/{id}")
     fun getById(@PathParam("id") id: Long): Response {
-        val artist = artistRepository.findById(id)
+        val song = songRepository.findById(id)
 
-        return when (artist) {
+        return when (song) {
             null -> Response.status(Response.Status.NOT_FOUND).build()
             else -> {
-                Response.ok(artist).build()
+                Response.ok(song).build()
             }
         }
     }
 
     @POST
     @Transactional
-    fun add(artistDto: ArtistDto): Response {
-        val artist = Artist(artistDto.firstName, artistDto.lastName, artistDto.alias, artistDto.info)
+    fun add(songDto: SongDto): Response {
+        val song = Song(
+            songDto.title,
+            artistRepository.findById(songDto.artistId),
+            songDto.genreIds.map { genreRepository.findById(it) }
+        )
 
-        artistRepository.persist(artist)
+        songRepository.persist(song)
 
         return Response.created(
             UriBuilder.fromMethod(ArtistResource::class.java, "getById")
-                .build(artist.id)
+                .build(song.id)
         ).build()
     }
 
@@ -61,12 +69,12 @@ class ArtistResource {
     @Path("/{id}")
     @Transactional
     fun deleteById(@PathParam("id") id: Long): Response {
-        val artist = artistRepository.findById(id)
+        val song = songRepository.findById(id)
 
-        return when (artist) {
+        return when (song) {
             null -> Response.status(Response.Status.NOT_FOUND).build()
             else -> {
-                artistRepository.delete(artist)
+                songRepository.delete(song)
                 Response.noContent().build()
             }
         }
