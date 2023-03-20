@@ -1,0 +1,10 @@
+### Send POST request with json body
+POST http://localhost:8080/artist
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "alias": "SoulJar",
+  "info": "John Doe is a singer-songwriter from New York."
+}
