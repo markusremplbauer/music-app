@@ -6,4 +6,8 @@ import javax.enterprise.context.ApplicationScoped
 
 @ApplicationScoped
 class ArtistRepository: PanacheRepository<Artist> {
+
+    fun findByAlias(alias: String): Artist? {
+        return find("alias", alias).firstResult()
+    }
 }
