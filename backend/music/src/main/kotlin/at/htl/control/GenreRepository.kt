@@ -6,4 +6,7 @@ import javax.enterprise.context.ApplicationScoped
 
 @ApplicationScoped
 class GenreRepository: PanacheRepository<Genre> {
+    fun findByName(genreName: String): Genre? {
+        return find("name", genreName).firstResult()
+    }
 }
