@@ -1,11 +1,9 @@
 package at.htl.boundary
 
-import at.htl.boundary.dto.ArtistDto
 import at.htl.boundary.dto.SongDto
 import at.htl.control.ArtistRepository
 import at.htl.control.GenreRepository
 import at.htl.control.SongRepository
-import at.htl.entity.Artist
 import at.htl.entity.Song
 import javax.inject.Inject
 import javax.transaction.Transactional
@@ -52,9 +50,9 @@ class SongResource {
     @Transactional
     fun add(songDto: SongDto): Response {
         val song = Song(
-            songDto.title,
-            artistRepository.findById(songDto.artistId),
-            songDto.genreIds.map { genreRepository.findById(it) }
+            title = songDto.title,
+            artist = artistRepository.findById(songDto.artistId)!!,
+            genres = songDto.genreIds.map { genreRepository.findById(it)!! }
         )
 
         songRepository.persist(song)

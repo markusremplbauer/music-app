@@ -38,7 +38,9 @@ class InitBean {
             Files.lines(Paths.get("artist.csv")).use { lines ->
                 lines.skip(1).forEach { l ->
                     val line = l.split(";")
-                    val artist = Artist(line[0], line[1], line[2], line[3])
+                    val artist = Artist(
+                        firstName = line[0], lastName = line[1], alias = line[2], info = line[3]
+                    )
                     artistRepository.persist(artist)
                 }
             }
@@ -54,7 +56,7 @@ class InitBean {
                 lines.skip(1).forEach { l ->
                     val line = l.split(";")
                     val genre = Genre(
-                        line[0], line[1]
+                        name = line[0], description = line[1]
                     )
                     genreRepository.persist(genre)
                 }
@@ -71,9 +73,9 @@ class InitBean {
                 lines.skip(1).forEach { l ->
                     val line = l.split(";")
                     val song = Song(
-                        line[0],
-                        artistRepository.findByAlias(line[1]),
-                        line[2].split(", ").map { genreRepository.findByName(it) },
+                        title = line[0],
+                        artist = artistRepository.findByAlias(line[1])!!,
+                        genres = line[2].split(", ").map { genreRepository.findByName(it)!! },
                     )
                     songRepository.persist(song)
                 }
