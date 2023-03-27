@@ -35,7 +35,7 @@ class InitBean {
     @Transactional
     fun readArtistsFromCsv() {
         try {
-            Files.lines(Paths.get("artist.csv")).use { lines ->
+            Files.lines(Paths.get("artists.csv")).use { lines ->
                 lines.skip(1).forEach { l ->
                     val line = l.split(";")
                     val artist = Artist(

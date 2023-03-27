@@ -1,0 +1,25 @@
+package at.htl.remplbauer.music.model.db.dao
+
+import androidx.room.*
+import at.htl.remplbauer.music.data.Artist
+import kotlinx.coroutines.flow.Flow
+
+@Dao
+interface ArtistDao {
+
+    @Query("select * from artists")
+    fun getAll(): Flow<List<Artist>>
+
+    @Query("select * from artists where id = :authorId")
+    fun getById(authorId: Int): Flow<Artist>
+
+    @Query("select * from artists where alias LIKE :alias LIMIT 1")
+    fun findByAlias(alias: String): Artist?
+
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insert(artist: Artist)
+
+    @Delete
+    suspend fun delete(author: Artist)
+}
