@@ -68,16 +68,14 @@ class InitBean {
     fun readSongsFromCsv() {
         try {
             Files.lines(Paths.get("songs.csv")).use { lines ->
-                {
-                    lines.skip(1).forEach { l ->
-                        val line = l.split(";")
-                        val song = Song(
-                            line[0],
-                            artistRepository.findByAlias(line[1]),
-                            line[2].split(", ").map { genreRepository.findByName(it) },
-                        )
-                        songRepository.persist(song)
-                    }
+                lines.skip(1).forEach { l ->
+                    val line = l.split(";")
+                    val song = Song(
+                        line[0],
+                        artistRepository.findByAlias(line[1]),
+                        line[2].split(", ").map { genreRepository.findByName(it) },
+                    )
+                    songRepository.persist(song)
                 }
             }
 
