@@ -19,8 +19,10 @@ object AppModule {
         return Room.databaseBuilder(
             context,
             AppDatabase::class.java,
-            "music_db"
-        ).build()
+            "musicdb"
+        )
+            .fallbackToDestructiveMigration() // Delete database when migrating
+            .build() // The reason we can construct a database for the repo
     }
 
     @Provides
@@ -33,5 +35,4 @@ object AppModule {
     fun provideArtistRepo(dao: ArtistDao) : ArtistRepository {
         return ArtistRepository(dao)
     }
-
 }

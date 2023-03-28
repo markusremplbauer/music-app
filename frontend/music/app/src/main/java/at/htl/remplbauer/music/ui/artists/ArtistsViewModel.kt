@@ -43,4 +43,14 @@ class ArtistsViewModel @Inject constructor(
         favouriteArtists = listOf()
         artistRepository.getFavouriteArtists()
     }
+
+    fun removeArtist(artist: Artist) = viewModelScope.launch(Dispatchers.IO) {
+        artistRepository.deleteArtist(artist)
+        favouriteArtists = listOf()
+        artistRepository.getFavouriteArtists()
+    }
+
+    fun isLiked(artist: Artist): Boolean {
+        return favouriteArtists.contains(artist)
+    }
 }

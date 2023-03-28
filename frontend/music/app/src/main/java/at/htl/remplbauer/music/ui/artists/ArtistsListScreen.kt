@@ -48,23 +48,21 @@ fun ExpandableArtistCard(
     val rotationState by animateFloatAsState(if (expand) 180f else 0f) // Rotation State
     var stroke by remember { mutableStateOf(1) } // Stroke State
 
-    Card(
-        modifier = Modifier
-            .animateContentSize( // Animation
-                animationSpec = tween(
-                    durationMillis = 400, // Animation Speed
-                    easing = LinearOutSlowInEasing // Animation Type
-                )
+    Card(modifier = Modifier
+        .animateContentSize( // Animation
+            animationSpec = tween(
+                durationMillis = 400, // Animation Speed
+                easing = LinearOutSlowInEasing // Animation Type
             )
-            .padding(8.dp),
+        )
+        .padding(8.dp),
         backgroundColor = Color.White,
         shape = RoundedCornerShape(8.dp), // Shape
         border = BorderStroke(stroke.dp, color), // Stroke Width and Color
         onClick = {
             expand = !expand
             stroke = if (expand) 2 else 1
-        }
-    ) {
+        }) {
         Column(
             modifier = Modifier.fillMaxWidth()
         ) {
@@ -86,29 +84,30 @@ fun ExpandableArtistCard(
                         .padding(start = 8.dp)
                 )
                 Column(
-                    modifier = Modifier
-                        .padding(16.dp)
+                    modifier = Modifier.padding(16.dp)
                 ) {
-                    OutlinedButton(
-                        onClick = { viewModel.addArtist(artist) }
-                    ) {
+                    OutlinedButton(onClick = {
+                        if (viewModel.isLiked(artist)) viewModel.removeArtist(artist)
+                        else viewModel.addArtist(artist)
+                    }) {
                         Icon(
                             imageVector = Icons.Filled.Star,
                             contentDescription = null,
-                            tint = Color.Yellow
+                            tint = if (viewModel.isLiked(artist)) {
+                                Color.Yellow
+                            } else {
+                                Color.Gray
+                            }
                         )
                         Text("Like")
                     }
                 }
-                IconButton(
-                    modifier = Modifier
-                        .rotate(rotationState)
-                        .weight(.1f),
-                    onClick = {
-                        expand = !expand
-                        stroke = if (expand) 2 else 1
-                    }
-                ) {
+                IconButton(modifier = Modifier
+                    .rotate(rotationState)
+                    .weight(.1f), onClick = {
+                    expand = !expand
+                    stroke = if (expand) 2 else 1
+                }) {
                     Icon(
                         imageVector = if (expand) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
                         tint = color, // Icon Color

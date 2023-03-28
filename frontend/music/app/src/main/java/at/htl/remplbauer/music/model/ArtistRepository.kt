@@ -20,14 +20,13 @@ class ArtistRepository @Inject constructor(
     //      DATABASE ACCESS
     // ----------------------------------------------------
     suspend fun insertArtist(artist: Artist) {
-        if(artistDao.findByAlias(artist.alias) == null) {
-            artistDao.insert(artist)
-        }
+        artistDao.insert(artist)
     }
 
-//    fun getAllArtistsFromDB(): Flow<List<Artist>>{
-//        return artistDao.getAll()
-//    }
+    suspend fun deleteArtist(artist: Artist) {
+        artistDao.delete(artist)
+    }
+
 
     fun getFavouriteArtists(): LiveData<List<Artist>> = artistDao.getAll();
 }
