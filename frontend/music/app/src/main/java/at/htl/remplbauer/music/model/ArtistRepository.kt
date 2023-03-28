@@ -1,9 +1,9 @@
 package at.htl.remplbauer.music.model
 
+import androidx.lifecycle.LiveData
 import at.htl.remplbauer.music.data.Artist
 import at.htl.remplbauer.music.model.api.ApiService
 import at.htl.remplbauer.music.model.db.dao.ArtistDao
-import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 class ArtistRepository @Inject constructor(
@@ -25,7 +25,9 @@ class ArtistRepository @Inject constructor(
         }
     }
 
-    fun getAllArtistsFromDB(): Flow<List<Artist>>{
-        return artistDao.getAll()
-    }
+//    fun getAllArtistsFromDB(): Flow<List<Artist>>{
+//        return artistDao.getAll()
+//    }
+
+    fun getFavouriteArtists(): LiveData<List<Artist>> = artistDao.getAll();
 }

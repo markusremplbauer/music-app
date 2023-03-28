@@ -27,7 +27,7 @@ import at.htl.remplbauer.music.data.Artist
 
 @Composable
 fun ArtistsListScreen(viewModel: ArtistsViewModel) {
-    val artists = viewModel.authorsState.value
+    val artists = viewModel.artists
 
     LazyColumn {
         items(artists) {

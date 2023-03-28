@@ -1,5 +1,6 @@
 package at.htl.remplbauer.music.model.db.dao
 
+import androidx.lifecycle.LiveData
 import androidx.room.*
 import at.htl.remplbauer.music.data.Artist
 import kotlinx.coroutines.flow.Flow
@@ -8,7 +9,7 @@ import kotlinx.coroutines.flow.Flow
 interface ArtistDao {
 
     @Query("select * from artists")
-    fun getAll(): Flow<List<Artist>>
+    fun getAll(): LiveData<List<Artist>>
 
     @Query("select * from artists where id = :authorId")
     fun getById(authorId: Int): Flow<Artist>
