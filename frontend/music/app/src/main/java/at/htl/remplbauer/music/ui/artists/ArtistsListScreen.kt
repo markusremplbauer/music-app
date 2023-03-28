@@ -31,7 +31,7 @@ fun ArtistsListScreen(viewModel: ArtistsViewModel) {
 
     LazyColumn {
         items(artists) {
-            ExpandableArtistCard(artist = it, viewModel= viewModel, color = Color.Magenta)
+            ExpandableArtistCard(artist = it, viewModel = viewModel, color = Color.Magenta)
         }
     }
 }
@@ -77,7 +77,7 @@ fun ExpandableArtistCard(
             ) {
                 Text(
                     text = artist.alias,
-                    color =  color, // Header Color
+                    color = color, // Header Color
                     fontSize = 20.sp,
                     textAlign = TextAlign.Start,
                     fontWeight = FontWeight.Normal,
@@ -110,23 +110,28 @@ fun ExpandableArtistCard(
                     }
                 ) {
                     Icon(
-                        imageVector =  if (expand) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                        imageVector = if (expand) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
                         tint = color, // Icon Color
                         contentDescription = "Drop Down Arrow"
                     )
                 }
             }
             if (expand) {
-                Text(
-                    text = artist.info,
-                    color = color, // Description Color
-                    fontSize = 16.sp,
-                    textAlign = TextAlign.Start,
-                    fontWeight = FontWeight.Normal,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(start = 16.dp, end = 16.dp, bottom = 16.dp)
-                )
+                Row {
+                    Text(
+                        text = """
+                            ${artist.firstName} ${artist.lastName}
+                            
+                            ${artist.info}""".trimIndent(),
+                        color = color, // Description Color
+                        fontSize = 16.sp,
+                        textAlign = TextAlign.Start,
+                        fontWeight = FontWeight.Normal,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(start = 16.dp, end = 16.dp, bottom = 16.dp)
+                    )
+                }
             }
         }
     }
