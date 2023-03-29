@@ -5,9 +5,12 @@ import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -18,6 +21,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -34,7 +38,7 @@ fun ArtistsListScreen(viewModel: ArtistsViewModel) {
 
     LazyColumn {
         items(artists) {
-            ExpandableArtistCard(artist = it, viewModel = viewModel, color = Color.Black)
+            ExpandableArtistCard(artist = it, viewModel = viewModel, color = Color.Magenta)
         }
     }
 }
@@ -51,18 +55,19 @@ fun ExpandableArtistCard(
     val rotationState by animateFloatAsState(if (expand) 180f else 0f) // Rotation State
     var stroke by remember { mutableStateOf(1) } // Stroke State
 
+
     Card(
         modifier = Modifier
-        .animateContentSize( // Animation
-            animationSpec = tween(
-                durationMillis = 400, // Animation Speed
-                easing = LinearOutSlowInEasing // Animation Type
+            .animateContentSize( // Animation
+                animationSpec = tween(
+                    durationMillis = 400, // Animation Speed
+                    easing = LinearOutSlowInEasing // Animation Type
+                )
             )
-        )
-        .padding(8.dp),
-        backgroundColor = Color.White,
-        shape = RoundedCornerShape(8.dp), // Shape
-        border = BorderStroke(stroke.dp, color), // Stroke Width and Color
+            .fillMaxWidth()
+            .padding(16.dp),
+        elevation = 8.dp,
+        shape = RoundedCornerShape(16.dp),
         onClick = {
             expand = !expand
             stroke = if (expand) 2 else 1
@@ -99,23 +104,27 @@ fun ExpandableArtistCard(
                     color = color,
                     fontSize = 20.sp,
                     textAlign = TextAlign.Start,
-                    fontWeight = FontWeight.Bold,
+                    fontWeight = FontWeight.Normal,
                     modifier = Modifier
                         .weight(.9f)
                         .padding(start = 8.dp)
                 )
                 Column(
-                    modifier = Modifier.padding(16.dp)
+                    modifier = Modifier
+                        .padding(16.dp)
                 ) {
-                    OutlinedButton(onClick = {
-                        if (viewModel.isLiked(artist)) viewModel.removeArtist(artist)
-                        else viewModel.addArtist(artist)
-                    }) {
+                    OutlinedButton(
+                        onClick = {
+                            if (viewModel.isLiked(artist)) viewModel.removeArtist(artist)
+                            else viewModel.addArtist(artist)
+                        },
+                        shape = RoundedCornerShape(8.dp),
+                    ) {
                         Icon(
-                            imageVector = Icons.Filled.Star,
+                            imageVector = Icons.Default.Star,
                             contentDescription = null,
                             tint = if (viewModel.isLiked(artist)) {
-                                Color.Yellow
+                                Color(0xFFFFD700)
                             } else {
                                 Color.Gray
                             }
@@ -123,16 +132,19 @@ fun ExpandableArtistCard(
                         Text("Like")
                     }
                 }
-                IconButton(modifier = Modifier
-                    .rotate(rotationState)
-                    .weight(.1f), onClick = {
-                    expand = !expand
-                    stroke = if (expand) 2 else 1
-                }) {
+                IconButton(
+                    modifier = Modifier
+                        .rotate(rotationState)
+                        .weight(.1f),
+                    onClick = {
+                        expand = !expand
+                        stroke = if (expand) 2 else 1
+                    },
+                ) {
                     Icon(
                         imageVector = if (expand) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
                         tint = color, // Icon Color
-                        contentDescription = "Drop Down Arrow"
+                        contentDescription = "Drop Down Arrow",
                     )
                 }
             }
