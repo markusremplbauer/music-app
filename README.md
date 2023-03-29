@@ -7,7 +7,7 @@ This project is a music app that allows users to view and listen to songs by the
 ## Application Structure
 
 <p align="center">
-    <img src="images/music-app.excalidraw.svg" alt="Music App Structure" />
+    <img src="images/music-app.svg" alt="Music App Structure" />
 </p>
 
 ## Features

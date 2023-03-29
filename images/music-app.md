@@ -26,7 +26,7 @@ delete artist from db ^EL0ELnj2
 
 add artist to db ^LsiLwhAR
 
-read liked artist from db ^K5T87cIB
+read liked artists from db ^K5T87cIB
 
 
 # Embedded files
@@ -44,8 +44,8 @@ read liked artist from db ^K5T87cIB
 	"elements": [
 		{
 			"type": "image",
-			"version": 286,
-			"versionNonce": 591284488,
+			"version": 288,
+			"versionNonce": 876149512,
 			"isDeleted": false,
 			"id": "vN7biOZpjV350Otfa3elx",
 			"fillStyle": "hachure",
@@ -64,7 +64,7 @@ read liked artist from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680112036070,
+			"updated": 1680112781929,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -76,8 +76,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "image",
-			"version": 57,
-			"versionNonce": 1933415944,
+			"version": 60,
+			"versionNonce": 677833592,
 			"isDeleted": false,
 			"id": "31GnDd8Hh6fm9kwsxYrnb",
 			"fillStyle": "hachure",
@@ -95,8 +95,13 @@ read liked artist from db ^K5T87cIB
 			"seed": 121090568,
 			"groupIds": [],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": [
+				{
+					"id": "5QNi64jYIrC4wKm7-hOeU",
+					"type": "arrow"
+				}
+			],
+			"updated": 1680112831417,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -108,8 +113,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "image",
-			"version": 156,
-			"versionNonce": 429174392,
+			"version": 160,
+			"versionNonce": 1554033160,
 			"isDeleted": false,
 			"id": "yDGRFemP5urNW7uLbSySi",
 			"fillStyle": "hachure",
@@ -128,7 +133,7 @@ read liked artist from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680111974292,
+			"updated": 1680112818230,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -140,8 +145,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "rectangle",
-			"version": 867,
-			"versionNonce": 1086698504,
+			"version": 869,
+			"versionNonce": 52177528,
 			"isDeleted": false,
 			"id": "SAHWpNRpZIGWy4OCX2h1Q",
 			"fillStyle": "solid",
@@ -163,15 +168,15 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 1
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781929,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 889,
-			"versionNonce": 1587900536,
+			"version": 891,
+			"versionNonce": 1810618632,
 			"isDeleted": false,
 			"id": "gLUVAYHf1sLMQdIcf0NVH",
 			"fillStyle": "solid",
@@ -199,6 +204,10 @@ read liked artist from db ^K5T87cIB
 					"type": "arrow"
 				},
 				{
+					"id": "jA0Qc8LHhZU_Wbn0YIATi",
+					"type": "arrow"
+				},
+				{
 					"id": "i8wXiCxB5nV7zhlRmvrE4",
 					"type": "arrow"
 				},
@@ -211,14 +220,14 @@ read liked artist from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680111974292,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 1049,
-			"versionNonce": 1560408840,
+			"version": 1051,
+			"versionNonce": 2082478968,
 			"isDeleted": false,
 			"id": "PgevVFHMzZHlz1HPhBpY9",
 			"fillStyle": "solid",
@@ -238,8 +247,8 @@ read liked artist from db ^K5T87cIB
 				"ZTk5HqkpDDbnuUxQOdM9D"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -266,8 +275,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1474,
-			"versionNonce": 1653645688,
+			"version": 1476,
+			"versionNonce": 1780185096,
 			"isDeleted": false,
 			"id": "fZdPvEKiUvyCEjGnsw7MH",
 			"fillStyle": "solid",
@@ -287,8 +296,8 @@ read liked artist from db ^K5T87cIB
 				"ZTk5HqkpDDbnuUxQOdM9D"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -315,8 +324,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1795,
-			"versionNonce": 1163809288,
+			"version": 1797,
+			"versionNonce": 1904077944,
 			"isDeleted": false,
 			"id": "l68UjHsE8KsB-ummgdppb",
 			"fillStyle": "solid",
@@ -336,8 +345,8 @@ read liked artist from db ^K5T87cIB
 				"ZTk5HqkpDDbnuUxQOdM9D"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -364,8 +373,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "rectangle",
-			"version": 818,
-			"versionNonce": 65909368,
+			"version": 820,
+			"versionNonce": 1593784072,
 			"isDeleted": false,
 			"id": "LfMXEoqPlBVFm9WV4TBjb",
 			"fillStyle": "solid",
@@ -387,15 +396,15 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 1
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 734,
-			"versionNonce": 1087820040,
+			"version": 736,
+			"versionNonce": 2096733560,
 			"isDeleted": false,
 			"id": "y4lT_7jedjrUmgWiXBR-4",
 			"fillStyle": "solid",
@@ -415,8 +424,8 @@ read liked artist from db ^K5T87cIB
 				"ZTk5HqkpDDbnuUxQOdM9D"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -455,8 +464,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 572,
-			"versionNonce": 2038473592,
+			"version": 574,
+			"versionNonce": 521344520,
 			"isDeleted": false,
 			"id": "DB9ulu1AfxJQli6Zq8o0_",
 			"fillStyle": "solid",
@@ -478,8 +487,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -500,8 +509,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 464,
-			"versionNonce": 1458008072,
+			"version": 466,
+			"versionNonce": 1607937656,
 			"isDeleted": false,
 			"id": "dsSPASJPykIuQPqOeyN0t",
 			"fillStyle": "solid",
@@ -523,8 +532,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -545,8 +554,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 685,
-			"versionNonce": 26047608,
+			"version": 687,
+			"versionNonce": 257103112,
 			"isDeleted": false,
 			"id": "kR1bsNh1-WfVQMSgApDF2",
 			"fillStyle": "solid",
@@ -568,8 +577,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -590,8 +599,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 668,
-			"versionNonce": 1066151688,
+			"version": 670,
+			"versionNonce": 316317560,
 			"isDeleted": false,
 			"id": "jibW0jWw15LeR6fT0zDr2",
 			"fillStyle": "solid",
@@ -613,8 +622,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -635,8 +644,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 371,
-			"versionNonce": 1909990776,
+			"version": 373,
+			"versionNonce": 356201480,
 			"isDeleted": false,
 			"id": "KjupuvR8FKLL7hVYEHu4w",
 			"fillStyle": "solid",
@@ -662,7 +671,7 @@ read liked artist from db ^K5T87cIB
 					"id": "utAnm7iR"
 				}
 			],
-			"updated": 1680111974292,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -671,7 +680,10 @@ read liked artist from db ^K5T87cIB
 				"gap": 9.815050044602856
 			},
 			"endBinding": null,
-			"lastCommittedPoint": null,
+			"lastCommittedPoint": [
+				-101.371583349503,
+				-92.61107614645954
+			],
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"points": [
@@ -687,8 +699,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 73,
-			"versionNonce": 1981667080,
+			"version": 75,
+			"versionNonce": 1447555192,
 			"isDeleted": false,
 			"id": "utAnm7iR",
 			"fillStyle": "solid",
@@ -707,7 +719,7 @@ read liked artist from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680112146215,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -721,8 +733,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 3943,
-			"versionNonce": 1201976952,
+			"version": 3945,
+			"versionNonce": 113734408,
 			"isDeleted": false,
 			"id": "B6Jly5ACDuL4WtUMXUSeI",
 			"fillStyle": "solid",
@@ -744,8 +756,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -834,8 +846,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1677,
-			"versionNonce": 2063731976,
+			"version": 1679,
+			"versionNonce": 1105404280,
 			"isDeleted": false,
 			"id": "DtlXt6_CMpK1Em9XY7Aao",
 			"fillStyle": "solid",
@@ -857,8 +869,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -903,8 +915,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1764,
-			"versionNonce": 934750072,
+			"version": 1766,
+			"versionNonce": 443798024,
 			"isDeleted": false,
 			"id": "vq5dIIi5H6gaIvsxHnWKW",
 			"fillStyle": "solid",
@@ -926,8 +938,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -972,8 +984,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "ellipse",
-			"version": 4780,
-			"versionNonce": 541797384,
+			"version": 4782,
+			"versionNonce": 1425027704,
 			"isDeleted": false,
 			"id": "CLutfb4nyjxNmniIAuCuv",
 			"fillStyle": "solid",
@@ -993,15 +1005,15 @@ read liked artist from db ^K5T87cIB
 				"2CLM2vEoOJJjQCk5AEroy"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 151,
-			"versionNonce": 1045657720,
+			"version": 153,
+			"versionNonce": 1463570696,
 			"isDeleted": false,
 			"id": "JyvS_vSBZa_RHin7k2yEb",
 			"fillStyle": "solid",
@@ -1021,15 +1033,15 @@ read liked artist from db ^K5T87cIB
 				"2CLM2vEoOJJjQCk5AEroy"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 200,
-			"versionNonce": 488139528,
+			"version": 202,
+			"versionNonce": 104014712,
 			"isDeleted": false,
 			"id": "-Z4qCVt8EKG8tpmMHhBNm",
 			"fillStyle": "solid",
@@ -1049,15 +1061,15 @@ read liked artist from db ^K5T87cIB
 				"2CLM2vEoOJJjQCk5AEroy"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 254,
-			"versionNonce": 792570232,
+			"version": 256,
+			"versionNonce": 77393928,
 			"isDeleted": false,
 			"id": "tGacGLe4JGmeGA_F7hZAy",
 			"fillStyle": "solid",
@@ -1077,15 +1089,15 @@ read liked artist from db ^K5T87cIB
 				"2CLM2vEoOJJjQCk5AEroy"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974292,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 250,
-			"versionNonce": 736479752,
+			"version": 252,
+			"versionNonce": 1408234616,
 			"isDeleted": false,
 			"id": "i8wXiCxB5nV7zhlRmvrE4",
 			"fillStyle": "solid",
@@ -1111,7 +1123,7 @@ read liked artist from db ^K5T87cIB
 					"id": "eQMhVDkn"
 				}
 			],
-			"updated": 1680111974292,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1136,8 +1148,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 29,
-			"versionNonce": 1169799800,
+			"version": 31,
+			"versionNonce": 445755144,
 			"isDeleted": false,
 			"id": "eQMhVDkn",
 			"fillStyle": "solid",
@@ -1155,8 +1167,8 @@ read liked artist from db ^K5T87cIB
 			"seed": 641042696,
 			"groupIds": [],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1170,8 +1182,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 2400,
-			"versionNonce": 1471105288,
+			"version": 2402,
+			"versionNonce": 1407886712,
 			"isDeleted": false,
 			"id": "NC--fSEne815K99JwG9Lj",
 			"fillStyle": "solid",
@@ -1193,8 +1205,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1239,8 +1251,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 463,
-			"versionNonce": 881568632,
+			"version": 465,
+			"versionNonce": 831950344,
 			"isDeleted": false,
 			"id": "K4b-_akl2b3itzFtdnfDf",
 			"fillStyle": "cross-hatch",
@@ -1263,8 +1275,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1285,8 +1297,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 519,
-			"versionNonce": 1810950152,
+			"version": 521,
+			"versionNonce": 1130837624,
 			"isDeleted": false,
 			"id": "X8DWOuSUhdyHeyo6ktklu",
 			"fillStyle": "cross-hatch",
@@ -1309,8 +1321,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1331,8 +1343,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 474,
-			"versionNonce": 905411704,
+			"version": 476,
+			"versionNonce": 1923583240,
 			"isDeleted": false,
 			"id": "LTwAgZgbRm7R6LvC6yxeh",
 			"fillStyle": "cross-hatch",
@@ -1355,8 +1367,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1377,8 +1389,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 477,
-			"versionNonce": 1688643336,
+			"version": 479,
+			"versionNonce": 388605816,
 			"isDeleted": false,
 			"id": "eo_qXkRLvqdCT758HR23f",
 			"fillStyle": "cross-hatch",
@@ -1401,8 +1413,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1423,8 +1435,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 432,
-			"versionNonce": 465644920,
+			"version": 434,
+			"versionNonce": 121678856,
 			"isDeleted": false,
 			"id": "5XOBMozASQkFM4eppDp2u",
 			"fillStyle": "cross-hatch",
@@ -1447,8 +1459,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1469,8 +1481,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1599,
-			"versionNonce": 1582073352,
+			"version": 1601,
+			"versionNonce": 192280696,
 			"isDeleted": false,
 			"id": "FeceEbKsUXJNcrPKZdAUL",
 			"fillStyle": "solid",
@@ -1492,8 +1504,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1566,8 +1578,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 463,
-			"versionNonce": 1596767864,
+			"version": 465,
+			"versionNonce": 157149960,
 			"isDeleted": false,
 			"id": "eywPT57q",
 			"fillStyle": "cross-hatch",
@@ -1580,8 +1592,8 @@ read liked artist from db ^K5T87cIB
 			"y": -554.0534892944108,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 43.43357849121094,
-			"height": 32.4,
+			"width": 43.43321554807538,
+			"height": 33.151764035378726,
 			"seed": 119911288,
 			"groupIds": [
 				"xvfPBwq3S0e92HzdA9wDF"
@@ -1589,8 +1601,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"fontSize": 27.70363248772568,
@@ -1604,8 +1616,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 289,
-			"versionNonce": 98469128,
+			"version": 291,
+			"versionNonce": 873474424,
 			"isDeleted": false,
 			"id": "PGSznWWats_n4w9ZC9vfE",
 			"fillStyle": "solid",
@@ -1628,8 +1640,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1650,8 +1662,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 534,
-			"versionNonce": 821964664,
+			"version": 536,
+			"versionNonce": 1937459720,
 			"isDeleted": false,
 			"id": "dfXzE1FqC6Wvxcom47H1v",
 			"fillStyle": "solid",
@@ -1674,8 +1686,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1696,8 +1708,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 548,
-			"versionNonce": 148415496,
+			"version": 550,
+			"versionNonce": 205273720,
 			"isDeleted": false,
 			"id": "zhSmmC4HmwcJWsWZUBCpd",
 			"fillStyle": "solid",
@@ -1720,8 +1732,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1742,8 +1754,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 593,
-			"versionNonce": 158957688,
+			"version": 595,
+			"versionNonce": 278186248,
 			"isDeleted": false,
 			"id": "QWOGEupxtkyngSpEuw56O",
 			"fillStyle": "solid",
@@ -1766,8 +1778,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1788,8 +1800,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 610,
-			"versionNonce": 87483144,
+			"version": 612,
+			"versionNonce": 113126264,
 			"isDeleted": false,
 			"id": "eeT7nRDNhz4HJVxSIgzAC",
 			"fillStyle": "solid",
@@ -1812,8 +1824,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1834,8 +1846,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 17,
-			"versionNonce": 945992056,
+			"version": 19,
+			"versionNonce": 1814456328,
 			"isDeleted": false,
 			"id": "jL3WtXin",
 			"fillStyle": "solid",
@@ -1853,8 +1865,8 @@ read liked artist from db ^K5T87cIB
 			"seed": 1853899128,
 			"groupIds": [],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1868,8 +1880,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 4022,
-			"versionNonce": 2037727752,
+			"version": 4024,
+			"versionNonce": 500825208,
 			"isDeleted": false,
 			"id": "YRC1U2QiEgJKKgkGvHlEJ",
 			"fillStyle": "solid",
@@ -1892,8 +1904,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1982,8 +1994,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1756,
-			"versionNonce": 1962787448,
+			"version": 1758,
+			"versionNonce": 1110189832,
 			"isDeleted": false,
 			"id": "TziG3GAz_MtNvBzr3mm-L",
 			"fillStyle": "solid",
@@ -2006,8 +2018,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2052,8 +2064,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1843,
-			"versionNonce": 881836296,
+			"version": 1845,
+			"versionNonce": 1666428280,
 			"isDeleted": false,
 			"id": "5suJzUgQNxtConkDFVRsj",
 			"fillStyle": "solid",
@@ -2076,8 +2088,8 @@ read liked artist from db ^K5T87cIB
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2122,8 +2134,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "ellipse",
-			"version": 4860,
-			"versionNonce": 587934216,
+			"version": 4862,
+			"versionNonce": 1864500744,
 			"isDeleted": false,
 			"id": "h3uAtJL-bkbnTGkEd3fel",
 			"fillStyle": "solid",
@@ -2150,14 +2162,14 @@ read liked artist from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680111996290,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 230,
-			"versionNonce": 1174560776,
+			"version": 232,
+			"versionNonce": 275725944,
 			"isDeleted": false,
 			"id": "GcGzBIZhjbaIRF0FHECNG",
 			"fillStyle": "solid",
@@ -2178,15 +2190,15 @@ read liked artist from db ^K5T87cIB
 				"yi0bJt7HKfeGCYZ9wUJ-c"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 280,
-			"versionNonce": 1175563272,
+			"version": 282,
+			"versionNonce": 1610876168,
 			"isDeleted": false,
 			"id": "esUUqBPVh2pLEFoTpDzUR",
 			"fillStyle": "solid",
@@ -2213,14 +2225,14 @@ read liked artist from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680112067581,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 333,
-			"versionNonce": 1841897224,
+			"version": 335,
+			"versionNonce": 368095096,
 			"isDeleted": false,
 			"id": "YaYCyufaqt5Bv8uI0S_p4",
 			"fillStyle": "solid",
@@ -2241,15 +2253,15 @@ read liked artist from db ^K5T87cIB
 				"yi0bJt7HKfeGCYZ9wUJ-c"
 			],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974293,
+			"boundElements": null,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 100,
-			"versionNonce": 1739883896,
+			"version": 102,
+			"versionNonce": 38675464,
 			"isDeleted": false,
 			"id": "WLggru0m",
 			"fillStyle": "solid",
@@ -2279,7 +2291,7 @@ read liked artist from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680111987225,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2293,8 +2305,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 168,
-			"versionNonce": 1069258872,
+			"version": 170,
+			"versionNonce": 740032632,
 			"isDeleted": false,
 			"id": "aCYDOBI4KTcWnn5NnD_vF",
 			"fillStyle": "solid",
@@ -2320,7 +2332,7 @@ read liked artist from db ^K5T87cIB
 					"id": "ZXc52TVH"
 				}
 			],
-			"updated": 1680111974294,
+			"updated": 1680112781930,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2329,7 +2341,10 @@ read liked artist from db ^K5T87cIB
 				"gap": 9.783050783105011
 			},
 			"endBinding": null,
-			"lastCommittedPoint": null,
+			"lastCommittedPoint": [
+				-168.34470316262605,
+				123.17905109460452
+			],
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"points": [
@@ -2345,8 +2360,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 20,
-			"versionNonce": 1573014280,
+			"version": 22,
+			"versionNonce": 872178440,
 			"isDeleted": false,
 			"id": "ZXc52TVH",
 			"fillStyle": "solid",
@@ -2364,8 +2379,8 @@ read liked artist from db ^K5T87cIB
 			"seed": 1153121288,
 			"groupIds": [],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974294,
+			"boundElements": null,
+			"updated": 1680112781931,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2379,8 +2394,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 64,
-			"versionNonce": 245483896,
+			"version": 66,
+			"versionNonce": 1656041848,
 			"isDeleted": false,
 			"id": "HQg2Fu9g9Jls_ySgAH4W4",
 			"fillStyle": "solid",
@@ -2406,7 +2421,7 @@ read liked artist from db ^K5T87cIB
 					"id": "DFxgiu6L"
 				}
 			],
-			"updated": 1680111974294,
+			"updated": 1680112781931,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2431,8 +2446,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 20,
-			"versionNonce": 2085857800,
+			"version": 22,
+			"versionNonce": 864731656,
 			"isDeleted": false,
 			"id": "DFxgiu6L",
 			"fillStyle": "solid",
@@ -2450,8 +2465,8 @@ read liked artist from db ^K5T87cIB
 			"seed": 1773041160,
 			"groupIds": [],
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1680111974294,
+			"boundElements": null,
+			"updated": 1680112781931,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2465,8 +2480,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 618,
-			"versionNonce": 396062984,
+			"version": 1077,
+			"versionNonce": 1443799304,
 			"isDeleted": false,
 			"id": "hR7zsss8PTC7_gMevkOWE",
 			"fillStyle": "solid",
@@ -2475,12 +2490,12 @@ read liked artist from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 8.049867089755105,
-			"y": -159.65278544280642,
+			"x": 38.66842967151523,
+			"y": 174.42631489127933,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
-			"width": 78.07831538681468,
-			"height": 522.2956093389314,
+			"width": 78.46229969668488,
+			"height": 188.21650900484497,
 			"seed": 33032968,
 			"groupIds": [],
 			"roundness": {
@@ -2492,14 +2507,14 @@ read liked artist from db ^K5T87cIB
 					"id": "EL0ELnj2"
 				}
 			],
-			"updated": 1680112060170,
+			"updated": 1680112828084,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
 			"endBinding": {
 				"elementId": "WLggru0m",
-				"focus": 1.7058160513254148,
-				"gap": 15.825860963869019
+				"focus": 1.6921086315947358,
+				"gap": 15.403908170103662
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2510,19 +2525,19 @@ read liked artist from db ^K5T87cIB
 					0
 				],
 				[
-					46.1553179664724,
-					452.4277656101491
+					15.498786900817116,
+					115.94695209335111
 				],
 				[
-					-31.922997420342277,
-					522.2956093389314
+					-62.96351279586776,
+					188.21650900484497
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 28,
-			"versionNonce": 1687485816,
+			"version": 33,
+			"versionNonce": 267731208,
 			"isDeleted": false,
 			"id": "EL0ELnj2",
 			"fillStyle": "solid",
@@ -2531,8 +2546,8 @@ read liked artist from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -52.86471545646781,
-			"y": 280.7749801673427,
+			"x": -52.86471545646782,
+			"y": 280.7749801673425,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
 			"width": 214.13980102539062,
@@ -2541,7 +2556,7 @@ read liked artist from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680112146216,
+			"updated": 1680112781931,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2555,8 +2570,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 384,
-			"versionNonce": 386407800,
+			"version": 511,
+			"versionNonce": 1376216840,
 			"isDeleted": false,
 			"id": "5QNi64jYIrC4wKm7-hOeU",
 			"fillStyle": "solid",
@@ -2565,12 +2580,12 @@ read liked artist from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -33.12736526179674,
-			"y": 11.76737776066517,
+			"x": -176.20221367716556,
+			"y": 184.64948626256916,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
-			"width": 175.40843929362472,
-			"height": 352.9824148748249,
+			"width": 91.67436950736766,
+			"height": 180.1003063729209,
 			"seed": 844078200,
 			"groupIds": [],
 			"roundness": {
@@ -2582,10 +2597,14 @@ read liked artist from db ^K5T87cIB
 					"id": "LsiLwhAR"
 				}
 			],
-			"updated": 1680112021336,
+			"updated": 1680112832669,
 			"link": null,
 			"locked": false,
-			"startBinding": null,
+			"startBinding": {
+				"elementId": "31GnDd8Hh6fm9kwsxYrnb",
+				"focus": -1.1072044894849895,
+				"gap": 27.2269529895011
+			},
 			"endBinding": {
 				"elementId": "h3uAtJL-bkbnTGkEd3fel",
 				"focus": -1.2157215303071762,
@@ -2600,19 +2619,19 @@ read liked artist from db ^K5T87cIB
 					0
 				],
 				[
-					-175.40843929362472,
-					279.35418109725407
+					-32.333590878255904,
+					106.47207259535008
 				],
 				[
-					-83.73406978625707,
-					352.9824148748249
+					59.34077862911175,
+					180.1003063729209
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 20,
-			"versionNonce": 425571848,
+			"version": 22,
+			"versionNonce": 414703624,
 			"isDeleted": false,
 			"id": "LsiLwhAR",
 			"fillStyle": "solid",
@@ -2631,7 +2650,7 @@ read liked artist from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680112146216,
+			"updated": 1680112781931,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2645,8 +2664,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 189,
-			"versionNonce": 989563512,
+			"version": 192,
+			"versionNonce": 1324303992,
 			"isDeleted": false,
 			"id": "KrMrzTMvl-YM_tTPHvQBH",
 			"fillStyle": "solid",
@@ -2672,7 +2691,7 @@ read liked artist from db ^K5T87cIB
 					"id": "K5T87cIB"
 				}
 			],
-			"updated": 1680112098793,
+			"updated": 1680112795792,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2701,8 +2720,8 @@ read liked artist from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 36,
-			"versionNonce": 2097581688,
+			"version": 42,
+			"versionNonce": 2124602120,
 			"isDeleted": false,
 			"id": "K5T87cIB",
 			"fillStyle": "solid",
@@ -2711,27 +2730,27 @@ read liked artist from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 91.18849089300478,
+			"x": 106.7884741083368,
 			"y": 362.787007028379,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
-			"width": 217.7998046875,
+			"width": 186.59983825683594,
 			"height": 48,
 			"seed": 1954922360,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680112146216,
+			"updated": 1680112801806,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "read liked artist from\ndb",
-			"rawText": "read liked artist from db",
+			"text": "read liked artists \nfrom db",
+			"rawText": "read liked artists from db",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "KrMrzTMvl-YM_tTPHvQBH",
-			"originalText": "read liked artist from db"
+			"originalText": "read liked artists from db"
 		}
 	],
 	"appState": {
@@ -2749,10 +2768,10 @@ read liked artist from db ^K5T87cIB
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1259.1018320121532,
-		"scrollY": 893.3789502313123,
+		"scrollX": 690.0307674476318,
+		"scrollY": 607.1007268514346,
 		"zoom": {
-			"value": 0.6293135053993771
+			"value": 0.8049561372199968
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
