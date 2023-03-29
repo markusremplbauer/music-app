@@ -12,18 +12,21 @@ import androidx.compose.runtime.*
 import at.htl.remplbauer.music.ui.artists.ArtistsListScreen
 import at.htl.remplbauer.music.ui.artists.ArtistsViewModel
 import at.htl.remplbauer.music.ui.artists.LikedArtistsScreen
+import at.htl.remplbauer.music.ui.songs.SongListScreen
+import at.htl.remplbauer.music.ui.songs.SongsViewModel
 import at.htl.remplbauer.music.ui.theme.BooksTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val artistVM: ArtistsViewModel by viewModels()
+    private val songVM: SongsViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             BooksTheme {
-                Tabs(artistVM)
+                Tabs(artistVM, songVM)
             }
         }
     }
@@ -31,10 +34,10 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun Tabs(artistsVM: ArtistsViewModel) {
+fun Tabs(artistsVM: ArtistsViewModel, songsVM: SongsViewModel) {
     var tabIndex by remember { mutableStateOf(0) }
 
-    val tabTitles = listOf("Artists", "Liked Artists")
+    val tabTitles = listOf("Songs", "Artists", "Liked Artists")
     Column {
         TabRow(selectedTabIndex = tabIndex) {
             tabTitles.forEachIndexed { index, title ->
@@ -44,8 +47,9 @@ fun Tabs(artistsVM: ArtistsViewModel) {
             }
         }
         when (tabIndex) {
-            0 -> ArtistsListScreen(viewModel = artistsVM)
-            1 -> LikedArtistsScreen(viewModel = artistsVM)
+            0 -> SongListScreen(viewModel = songsVM)
+            1 -> ArtistsListScreen(viewModel = artistsVM)
+            2 -> LikedArtistsScreen(viewModel = artistsVM)
         }
     }
 }
