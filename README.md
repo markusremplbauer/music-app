@@ -4,6 +4,12 @@
 
 This project is a music app that allows users to view and listen to songs by their favorite artists, and discover new music based on genres. The app has three main entities: songs, artists, and genres.
 
+## Application Structure
+
+<p align="center">
+    <img src="images/music-app.excalidraw.svg" alt="Music App Structure" />
+</p>
+
 ## Features
 
 - **Songs view**:
@@ -18,9 +24,9 @@ This project is a music app that allows users to view and listen to songs by the
   The artist avatars are generated using [dicebear](https://www.dicebear.com/).
 
 <p align="center" class="display:flex;justify-content:space-around;">
-    <img src="images/songs-view.png" alt="Songs List Screenshot" style="width: 200px;" />
-    <img src="images/artists-view.png" alt="Artists List Screenshot" style="width: 200px;"/>
-    <img src="images/liked-artists-view.png" alt="Liked Artists List Screenshot" style="width: 200px;" />
+    <img src="images/songs-view.png" alt="Songs List Screenshot" style="width: 250px;" />
+    <img src="images/artists-view.png" alt="Artists List Screenshot" style="width: 250px;"/>
+    <img src="images/liked-artists-view.png" alt="Liked Artists List Screenshot" style="width: 250px;" />
 </p>
 
 ## Technologies Used
