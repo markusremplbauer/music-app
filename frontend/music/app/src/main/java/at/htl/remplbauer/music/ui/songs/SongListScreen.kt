@@ -31,8 +31,7 @@ fun SongListScreen(viewModel: SongsViewModel) {
                 elevation = 8.dp,
                 shape = RoundedCornerShape(16.dp)
             ) {
-                Row{
-                    // make a column with the image and center it
+                Row {
                     Column(
                         modifier = Modifier
                             .fillMaxHeight()
@@ -47,7 +46,7 @@ fun SongListScreen(viewModel: SongsViewModel) {
                                 .size(88.dp)
                                 .padding(4.dp),
 
-                        )
+                            )
                         Spacer(modifier = Modifier.weight(1f))
                     }
                     Column(

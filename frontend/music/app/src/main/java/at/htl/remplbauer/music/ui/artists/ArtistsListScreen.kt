@@ -19,11 +19,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import at.htl.remplbauer.music.R
 import at.htl.remplbauer.music.data.Artist
+import coil.compose.AsyncImage
 
 @Composable
 fun ArtistsListScreen(viewModel: ArtistsViewModel) {
@@ -73,6 +76,23 @@ fun ExpandableArtistCard(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween // Control the header Alignment over here.
             ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxHeight()
+                        .padding(16.dp)
+                ) {
+                    Spacer(modifier = Modifier.weight(1f))
+                    AsyncImage(
+                        model = "https://api.dicebear.com/6.x/miniavs/png?seed=${artist.alias}",
+                        error = painterResource(id = R.drawable.placeholder),
+                        contentDescription = null,
+                        modifier = Modifier
+                            .size(88.dp)
+                            .padding(4.dp),
+
+                        )
+                    Spacer(modifier = Modifier.weight(1f))
+                }
                 Text(
                     text = artist.alias,
                     color = color, // Header Color
