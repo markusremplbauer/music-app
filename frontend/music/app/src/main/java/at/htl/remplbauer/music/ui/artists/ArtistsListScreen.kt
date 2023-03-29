@@ -34,7 +34,7 @@ fun ArtistsListScreen(viewModel: ArtistsViewModel) {
 
     LazyColumn {
         items(artists) {
-            ExpandableArtistCard(artist = it, viewModel = viewModel, color = Color.Magenta)
+            ExpandableArtistCard(artist = it, viewModel = viewModel, color = Color.Black)
         }
     }
 }
@@ -51,7 +51,8 @@ fun ExpandableArtistCard(
     val rotationState by animateFloatAsState(if (expand) 180f else 0f) // Rotation State
     var stroke by remember { mutableStateOf(1) } // Stroke State
 
-    Card(modifier = Modifier
+    Card(
+        modifier = Modifier
         .animateContentSize( // Animation
             animationSpec = tween(
                 durationMillis = 400, // Animation Speed
@@ -95,10 +96,10 @@ fun ExpandableArtistCard(
                 }
                 Text(
                     text = artist.alias,
-                    color = color, // Header Color
+                    color = color,
                     fontSize = 20.sp,
                     textAlign = TextAlign.Start,
-                    fontWeight = FontWeight.Normal,
+                    fontWeight = FontWeight.Bold,
                     modifier = Modifier
                         .weight(.9f)
                         .padding(start = 8.dp)
@@ -137,19 +138,20 @@ fun ExpandableArtistCard(
             }
             if (expand) {
                 Row {
-                    Text(
-                        text = """
-                            ${artist.firstName} ${artist.lastName}
-                            
-                            ${artist.info}""".trimIndent(),
-                        color = color, // Description Color
-                        fontSize = 16.sp,
-                        textAlign = TextAlign.Start,
-                        fontWeight = FontWeight.Normal,
+                    Column(
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(start = 16.dp, end = 16.dp, bottom = 16.dp)
-                    )
+                            .padding(16.dp)
+                    ) {
+                        Text(
+                            text = "${artist.firstName} ${artist.lastName}",
+                            style = MaterialTheme.typography.body1,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            text = artist.info,
+                            style = MaterialTheme.typography.body1
+                        )
+                    }
                 }
             }
         }
