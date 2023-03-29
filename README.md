@@ -14,6 +14,7 @@ This project is a music app that allows users to view and listen to songs by the
 
 - **Songs view**:
   The "Songs view" displays all songs in a visually appealing way by listing them on cards, with genres displayed as chips and album covers generated using [dicebear](https://www.dicebear.com/).
+  Moreover, the user filter for song titles using a search bar.
 
 - **Artist view**:
   The "Artist view" displays all artist, with extendable cards that display information about the artist and allows to like the artist.

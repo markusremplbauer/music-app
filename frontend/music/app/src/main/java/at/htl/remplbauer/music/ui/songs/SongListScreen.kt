@@ -8,12 +8,14 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.material.TextField
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Cyan
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import at.htl.remplbauer.music.R
@@ -21,9 +23,24 @@ import at.htl.remplbauer.music.R
 @Composable
 fun SongListScreen(viewModel: SongsViewModel) {
     val songs = viewModel.songs
+    var filter by remember { mutableStateOf("") }
+
+    Column {
+        Spacer(modifier = Modifier.height(16.dp))
+        TextField(
+            value = filter,
+            onValueChange = {
+                filter = it
+            },
+            label = { Text("Filter Song") },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp)
+        )
+    }
 
     LazyColumn {
-        items(songs) { song ->
+        items(songs.filter { it.title.lowercase().contains(filter.lowercase()) }) { song ->
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
