@@ -30,9 +30,9 @@ read liked artists from db ^K5T87cIB
 
 
 # Embedded files
-7851ee030ab322d6fde90cd4059d130b983dbeff: [[Pasted Image 20230329192947_730.png]]
-862dd35d6834dd3d3fa611bcc888c86df6c2824c: [[Pasted Image 20230329193003_747.png]]
-3f507818d0f9a6142a5b93d5a805c2615917ee90: [[Pasted Image 20230329193052_423.png]]
+d5baf622df37802ae2c751285c61737146edca54: [[Pasted Image 20230329221837_157.png]]
+c2b320a29106670dc1576089f3fd555d63b20d5c: [[Pasted Image 20230329221941_214.png]]
+f8f828819d7ea9a454513d98c953044f0893a519: [[Pasted Image 20230329221956_223.png]]
 
 %%
 # Drawing
@@ -43,127 +43,9 @@ read liked artists from db ^K5T87cIB
 	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.20",
 	"elements": [
 		{
-			"type": "image",
-			"version": 680,
-			"versionNonce": 1725812570,
-			"isDeleted": false,
-			"id": "vN7biOZpjV350Otfa3elx",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 80,
-			"y": -260,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 220,
-			"height": 473.54260089686096,
-			"seed": 1100480520,
-			"groupIds": [],
-			"roundness": null,
-			"boundElements": [
-				{
-					"id": "KrMrzTMvl-YM_tTPHvQBH",
-					"type": "arrow"
-				},
-				{
-					"id": "HQg2Fu9g9Jls_ySgAH4W4",
-					"type": "arrow"
-				},
-				{
-					"id": "hR7zsss8PTC7_gMevkOWE",
-					"type": "arrow"
-				}
-			],
-			"updated": 1680117070949,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "7851ee030ab322d6fde90cd4059d130b983dbeff",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
-			"version": 81,
-			"versionNonce": 1512893254,
-			"isDeleted": false,
-			"id": "31GnDd8Hh6fm9kwsxYrnb",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -440,
-			"y": -260,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 221.14166666666668,
-			"height": 476,
-			"seed": 121090568,
-			"groupIds": [],
-			"roundness": null,
-			"boundElements": [
-				{
-					"id": "5QNi64jYIrC4wKm7-hOeU",
-					"type": "arrow"
-				},
-				{
-					"id": "aCYDOBI4KTcWnn5NnD_vF",
-					"type": "arrow"
-				}
-			],
-			"updated": 1680117070949,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "862dd35d6834dd3d3fa611bcc888c86df6c2824c",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
-			"version": 182,
-			"versionNonce": 1541329946,
-			"isDeleted": false,
-			"id": "yDGRFemP5urNW7uLbSySi",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -180,
-			"y": -260,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
-			"width": 221.14166666666668,
-			"height": 476,
-			"seed": 1444732792,
-			"groupIds": [],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1680117070949,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "3f507818d0f9a6142a5b93d5a805c2615917ee90",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
 			"type": "rectangle",
-			"version": 874,
-			"versionNonce": 1966838406,
+			"version": 901,
+			"versionNonce": 1967288294,
 			"isDeleted": false,
 			"id": "SAHWpNRpZIGWy4OCX2h1Q",
 			"fillStyle": "solid",
@@ -173,7 +55,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -170.7225502395184,
-			"y": -568.1991102173731,
+			"y": -588.1991102173731,
 			"strokeColor": "#5665dc",
 			"backgroundColor": "#5665dc",
 			"width": 195.74484850233853,
@@ -186,14 +68,14 @@ read liked artists from db ^K5T87cIB
 				"type": 1
 			},
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426544,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 896,
-			"versionNonce": 1004617946,
+			"version": 924,
+			"versionNonce": 1246325114,
 			"isDeleted": false,
 			"id": "gLUVAYHf1sLMQdIcf0NVH",
 			"fillStyle": "solid",
@@ -203,7 +85,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -159.29399287637676,
-			"y": -556.871364827611,
+			"y": -576.871364827611,
 			"strokeColor": "#5665dc",
 			"backgroundColor": "#ffffff",
 			"width": 174.5935363732416,
@@ -233,14 +115,14 @@ read liked artists from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680117070949,
+			"updated": 1680121426544,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 1056,
-			"versionNonce": 1584615878,
+			"version": 1083,
+			"versionNonce": 1752662822,
 			"isDeleted": false,
 			"id": "PgevVFHMzZHlz1HPhBpY9",
 			"fillStyle": "solid",
@@ -250,7 +132,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 1.5774237450700657,
 			"x": -51.98111561817956,
-			"y": -525.0686350002085,
+			"y": -545.0686350002085,
 			"strokeColor": "#c92a2a",
 			"backgroundColor": "#fa5252",
 			"width": 113.52519404157587,
@@ -261,7 +143,7 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -288,8 +170,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1481,
-			"versionNonce": 1920472474,
+			"version": 1508,
+			"versionNonce": 521284154,
 			"isDeleted": false,
 			"id": "fZdPvEKiUvyCEjGnsw7MH",
 			"fillStyle": "solid",
@@ -299,7 +181,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 4.721247315744137,
 			"x": -85.30589011803197,
-			"y": -523.2626337962063,
+			"y": -543.2626337962063,
 			"strokeColor": "#5665dc",
 			"backgroundColor": "#5665dc",
 			"width": 113.52519404157587,
@@ -310,7 +192,7 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -337,8 +219,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1802,
-			"versionNonce": 552675590,
+			"version": 1829,
+			"versionNonce": 841494118,
 			"isDeleted": false,
 			"id": "l68UjHsE8KsB-ummgdppb",
 			"fillStyle": "solid",
@@ -348,7 +230,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0.0005581869343673773,
 			"x": -70.10673870989788,
-			"y": -431.28452429221596,
+			"y": -451.28452429221596,
 			"strokeColor": "#5665dc",
 			"backgroundColor": "#5665dc",
 			"width": 43.974227384077345,
@@ -359,7 +241,7 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -386,8 +268,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "rectangle",
-			"version": 826,
-			"versionNonce": 14045786,
+			"version": 853,
+			"versionNonce": 109368058,
 			"isDeleted": false,
 			"id": "LfMXEoqPlBVFm9WV4TBjb",
 			"fillStyle": "solid",
@@ -397,7 +279,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 5.989889724533434,
 			"x": -50.12889248108378,
-			"y": -406.7032573045464,
+			"y": -426.7032573045464,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#ffffff",
 			"width": 15.443885162491027,
@@ -415,14 +297,14 @@ read liked artists from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 741,
-			"versionNonce": 1546786886,
+			"version": 768,
+			"versionNonce": 790720934,
 			"isDeleted": false,
 			"id": "y4lT_7jedjrUmgWiXBR-4",
 			"fillStyle": "solid",
@@ -432,7 +314,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -68.34429115103163,
-			"y": -511.2632152867386,
+			"y": -531.2632152867386,
 			"strokeColor": "#000000",
 			"backgroundColor": "#000000",
 			"width": 61.642187240298924,
@@ -443,7 +325,7 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"lastCommittedPoint": null,
@@ -482,8 +364,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 579,
-			"versionNonce": 1238300442,
+			"version": 606,
+			"versionNonce": 1663329210,
 			"isDeleted": false,
 			"id": "DB9ulu1AfxJQli6Zq8o0_",
 			"fillStyle": "solid",
@@ -493,7 +375,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -102.4797048846497,
-			"y": -498.81700170231784,
+			"y": -518.8170017023178,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#ffffff",
 			"width": 30.87672414241439,
@@ -506,7 +388,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -527,8 +409,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 471,
-			"versionNonce": 940777350,
+			"version": 498,
+			"versionNonce": 445664486,
 			"isDeleted": false,
 			"id": "dsSPASJPykIuQPqOeyN0t",
 			"fillStyle": "solid",
@@ -538,7 +420,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -83.1473631282909,
-			"y": -485.2357428553863,
+			"y": -505.2357428553863,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#ffffff",
 			"width": 6.605584541451968,
@@ -551,7 +433,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -572,8 +454,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 692,
-			"versionNonce": 1574241242,
+			"version": 719,
+			"versionNonce": 1326701690,
 			"isDeleted": false,
 			"id": "kR1bsNh1-WfVQMSgApDF2",
 			"fillStyle": "solid",
@@ -583,7 +465,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -71.4833549226153,
-			"y": -477.37572751317515,
+			"y": -497.37572751317515,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#ffffff",
 			"width": 1.4238314536380794,
@@ -596,7 +478,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -617,8 +499,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 675,
-			"versionNonce": 1490108102,
+			"version": 702,
+			"versionNonce": 1107410982,
 			"isDeleted": false,
 			"id": "jibW0jWw15LeR6fT0zDr2",
 			"fillStyle": "solid",
@@ -628,7 +510,7 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -71.5220444808708,
-			"y": -474.32933686407273,
+			"y": -494.32933686407273,
 			"strokeColor": "#ffffff",
 			"backgroundColor": "#ffffff",
 			"width": 34.94438057751381,
@@ -641,7 +523,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -662,8 +544,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 378,
-			"versionNonce": 1190885530,
+			"version": 548,
+			"versionNonce": 672546106,
 			"isDeleted": false,
 			"id": "KjupuvR8FKLL7hVYEHu4w",
 			"fillStyle": "solid",
@@ -673,11 +555,11 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": -169.10904292097962,
-			"y": -482.0237660240383,
+			"y": -495.64037716996114,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 135.19237315962238,
-			"height": 109.38649170483507,
+			"width": 130.89095707902038,
+			"height": 64.35962283003886,
 			"seed": 1524784504,
 			"groupIds": [],
 			"roundness": {
@@ -689,12 +571,12 @@ read liked artists from db ^K5T87cIB
 					"id": "utAnm7iR"
 				}
 			],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "gLUVAYHf1sLMQdIcf0NVH",
-				"focus": -0.49701546286544146,
+				"focus": -0.35113097774919294,
 				"gap": 9.815050044602856
 			},
 			"endBinding": null,
@@ -707,15 +589,19 @@ read liked artists from db ^K5T87cIB
 					0
 				],
 				[
-					-135.19237315962238,
-					-109.38649170483507
+					-66.850988281936,
+					-25.70627909573369
+				],
+				[
+					-130.89095707902038,
+					-64.35962283003886
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 80,
-			"versionNonce": 1393128966,
+			"version": 93,
+			"versionNonce": 962775910,
 			"isDeleted": false,
 			"id": "utAnm7iR",
 			"fillStyle": "solid",
@@ -724,8 +610,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -288.5151965418064,
-			"y": -548.7170118764559,
+			"x": -286.36448850150543,
+			"y": -533.0118830120191,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 103.61993408203125,
@@ -734,7 +620,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070949,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -748,8 +634,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 262,
-			"versionNonce": 130598278,
+			"version": 376,
+			"versionNonce": 604252346,
 			"isDeleted": false,
 			"id": "i8wXiCxB5nV7zhlRmvrE4",
 			"fillStyle": "solid",
@@ -758,12 +644,12 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 26.12511760398924,
-			"y": -469.61860171329664,
+			"x": 26.125117603989253,
+			"y": -484.7091260137831,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 161.11736967280916,
-			"height": 123.35548615574447,
+			"width": 133.87488239601075,
+			"height": 75.29087398621692,
 			"seed": 754643064,
 			"groupIds": [],
 			"roundness": {
@@ -775,19 +661,15 @@ read liked artists from db ^K5T87cIB
 					"id": "eQMhVDkn"
 				}
 			],
-			"updated": 1680117108305,
+			"updated": 1680121432640,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "gLUVAYHf1sLMQdIcf0NVH",
-				"focus": 0.5713429394737615,
-				"gap": 10.825574107124396
+				"focus": 0.5331362756260593,
+				"gap": 10.825574107124424
 			},
-			"endBinding": {
-				"elementId": "CLutfb4nyjxNmniIAuCuv",
-				"focus": 1.0095021329897271,
-				"gap": 15.767938549071161
-			},
+			"endBinding": null,
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -797,15 +679,15 @@ read liked artists from db ^K5T87cIB
 					0
 				],
 				[
-					161.11736967280916,
-					-123.35548615574447
+					133.87488239601075,
+					-75.29087398621692
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 36,
-			"versionNonce": 1543166042,
+			"version": 50,
+			"versionNonce": 251686566,
 			"isDeleted": false,
 			"id": "eQMhVDkn",
 			"fillStyle": "solid",
@@ -814,8 +696,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 43.14124266448823,
-			"y": -542.942152134601,
+			"x": 49.982618006096175,
+			"y": -526.8093008566483,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 126.15988159179688,
@@ -824,7 +706,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426545,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -838,8 +720,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 2407,
-			"versionNonce": 402715206,
+			"version": 2722,
+			"versionNonce": 847230650,
 			"isDeleted": false,
 			"id": "NC--fSEne815K99JwG9Lj",
 			"fillStyle": "solid",
@@ -848,8 +730,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -332.04349980709014,
-			"y": -638.3766584945673,
+			"x": -333.8424172277258,
+			"y": -618.2135812671156,
 			"strokeColor": "#000000",
 			"backgroundColor": "#000000",
 			"width": 25.425613311336615,
@@ -862,7 +744,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -907,8 +789,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 470,
-			"versionNonce": 443727130,
+			"version": 785,
+			"versionNonce": 2139597286,
 			"isDeleted": false,
 			"id": "K4b-_akl2b3itzFtdnfDf",
 			"fillStyle": "cross-hatch",
@@ -917,8 +799,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -332.07991854399665,
-			"y": -638.3259421039752,
+			"x": -333.8788359646324,
+			"y": -618.1628648765235,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 73.75308163999655,
@@ -932,7 +814,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -953,8 +835,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 526,
-			"versionNonce": 150387078,
+			"version": 868,
+			"versionNonce": 1569509242,
 			"isDeleted": false,
 			"id": "X8DWOuSUhdyHeyo6ktklu",
 			"fillStyle": "cross-hatch",
@@ -963,8 +845,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -405.6609754257075,
-			"y": -638.3252767918694,
+			"x": -407.45989284634317,
+			"y": -618.1621995644177,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 0,
@@ -978,7 +860,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -999,8 +881,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 481,
-			"versionNonce": 839911898,
+			"version": 823,
+			"versionNonce": 705002790,
 			"isDeleted": false,
 			"id": "LTwAgZgbRm7R6LvC6yxeh",
 			"fillStyle": "cross-hatch",
@@ -1009,8 +891,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -405.79364837520063,
-			"y": -495.9190599273956,
+			"x": -407.59256579583626,
+			"y": -475.7559826999439,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 99.66464357301547,
@@ -1024,7 +906,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1045,8 +927,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 484,
-			"versionNonce": 1043437766,
+			"version": 790,
+			"versionNonce": 16306234,
 			"isDeleted": false,
 			"id": "eo_qXkRLvqdCT758HR23f",
 			"fillStyle": "cross-hatch",
@@ -1055,8 +937,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -306.25563210988776,
-			"y": -495.41596270864295,
+			"x": -308.05454953052345,
+			"y": -475.25288548119124,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 0.08048894943783994,
@@ -1070,7 +952,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1091,8 +973,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 439,
-			"versionNonce": 702922394,
+			"version": 754,
+			"versionNonce": 1139206246,
 			"isDeleted": false,
 			"id": "5XOBMozASQkFM4eppDp2u",
 			"fillStyle": "cross-hatch",
@@ -1101,8 +983,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -332.70417524636105,
-			"y": -638.5369656549791,
+			"x": -334.5030926669968,
+			"y": -618.3738884275274,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 26.371905611957544,
@@ -1116,7 +998,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1137,8 +1019,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1606,
-			"versionNonce": 525242374,
+			"version": 1948,
+			"versionNonce": 10926330,
 			"isDeleted": false,
 			"id": "FeceEbKsUXJNcrPKZdAUL",
 			"fillStyle": "solid",
@@ -1147,8 +1029,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -402.7633113600748,
-			"y": -555.2314134614393,
+			"x": -404.5622287807103,
+			"y": -535.0683362339876,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fff",
 			"width": 124.51336876037868,
@@ -1161,7 +1043,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1234,8 +1116,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "text",
-			"version": 470,
-			"versionNonce": 782687066,
+			"version": 802,
+			"versionNonce": 1291381670,
 			"isDeleted": false,
 			"id": "eywPT57q",
 			"fillStyle": "cross-hatch",
@@ -1244,8 +1126,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -375.9443791794223,
-			"y": -554.0534892944108,
+			"x": -377.74329660005793,
+			"y": -533.8904120669591,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 43.43357849121094,
@@ -1258,7 +1140,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"fontSize": 27.70363248772568,
@@ -1272,8 +1154,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 296,
-			"versionNonce": 407543622,
+			"version": 635,
+			"versionNonce": 1276742074,
 			"isDeleted": false,
 			"id": "PGSznWWats_n4w9ZC9vfE",
 			"fillStyle": "solid",
@@ -1282,8 +1164,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -395.2728288718535,
-			"y": -613.2985965090479,
+			"x": -397.0717462924892,
+			"y": -593.1355192815962,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffffff",
 			"width": 54.40336216681818,
@@ -1297,7 +1179,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1318,8 +1200,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 541,
-			"versionNonce": 1587961882,
+			"version": 880,
+			"versionNonce": 1130923750,
 			"isDeleted": false,
 			"id": "dfXzE1FqC6Wvxcom47H1v",
 			"fillStyle": "solid",
@@ -1328,8 +1210,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -395.20414711249015,
-			"y": -603.2638258363298,
+			"x": -397.00306453312584,
+			"y": -583.1007486088781,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffffff",
 			"width": 70.54486758754634,
@@ -1343,7 +1225,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1364,8 +1246,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 555,
-			"versionNonce": 226674310,
+			"version": 894,
+			"versionNonce": 1786004090,
 			"isDeleted": false,
 			"id": "zhSmmC4HmwcJWsWZUBCpd",
 			"fillStyle": "solid",
@@ -1374,8 +1256,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -395.17938362199277,
-			"y": -593.0293052881997,
+			"x": -396.9783010426284,
+			"y": -572.866228060748,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffffff",
 			"width": 70.54486758754634,
@@ -1389,7 +1271,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1410,8 +1292,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 600,
-			"versionNonce": 366431450,
+			"version": 939,
+			"versionNonce": 1472379430,
 			"isDeleted": false,
 			"id": "QWOGEupxtkyngSpEuw56O",
 			"fillStyle": "solid",
@@ -1420,8 +1302,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -395.1738339095095,
-			"y": -582.7857109889948,
+			"x": -396.9727513301452,
+			"y": -562.622633761543,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffffff",
 			"width": 70.54486758754634,
@@ -1435,7 +1317,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1456,8 +1338,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 617,
-			"versionNonce": 1337198022,
+			"version": 956,
+			"versionNonce": 108651322,
 			"isDeleted": false,
 			"id": "eeT7nRDNhz4HJVxSIgzAC",
 			"fillStyle": "solid",
@@ -1466,8 +1348,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -395.2589961174712,
-			"y": -571.34154993994,
+			"x": -397.0579135381069,
+			"y": -551.1784727124883,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ffffff",
 			"width": 70.54486758754634,
@@ -1481,7 +1363,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426546,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1502,8 +1384,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 3999,
-			"versionNonce": 1626191834,
+			"version": 4016,
+			"versionNonce": 552895846,
 			"isDeleted": false,
 			"id": "B6Jly5ACDuL4WtUMXUSeI",
 			"fillStyle": "solid",
@@ -1512,7 +1394,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 202.04988741007412,
+			"x": 162.04988741007412,
 			"y": -601.8798110046574,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "#228be6",
@@ -1527,7 +1409,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1616,8 +1498,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1733,
-			"versionNonce": 936233670,
+			"version": 1750,
+			"versionNonce": 2056088570,
 			"isDeleted": false,
 			"id": "DtlXt6_CMpK1Em9XY7Aao",
 			"fillStyle": "solid",
@@ -1626,7 +1508,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 202.9724983723844,
+			"x": 162.9724983723844,
 			"y": -514.2441491168718,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "transparent",
@@ -1641,7 +1523,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1686,8 +1568,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1820,
-			"versionNonce": 1289596058,
+			"version": 1837,
+			"versionNonce": 1347086502,
 			"isDeleted": false,
 			"id": "vq5dIIi5H6gaIvsxHnWKW",
 			"fillStyle": "solid",
@@ -1696,7 +1578,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 201.50442403657576,
+			"x": 161.50442403657576,
 			"y": -558.6379267651452,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "transparent",
@@ -1711,7 +1593,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1756,8 +1638,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "ellipse",
-			"version": 4837,
-			"versionNonce": 1755789254,
+			"version": 4855,
+			"versionNonce": 1555160250,
 			"isDeleted": false,
 			"id": "CLutfb4nyjxNmniIAuCuv",
 			"fillStyle": "solid",
@@ -1766,7 +1648,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 200,
+			"x": 160,
 			"y": -612.6509579838518,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "#fff",
@@ -1778,20 +1660,15 @@ read liked artists from db ^K5T87cIB
 				"xwi8HFYIV-K5fO2A93EUg"
 			],
 			"roundness": null,
-			"boundElements": [
-				{
-					"id": "i8wXiCxB5nV7zhlRmvrE4",
-					"type": "arrow"
-				}
-			],
-			"updated": 1680117095826,
+			"boundElements": [],
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 207,
-			"versionNonce": 1215367514,
+			"version": 224,
+			"versionNonce": 1702028262,
 			"isDeleted": false,
 			"id": "JyvS_vSBZa_RHin7k2yEb",
 			"fillStyle": "solid",
@@ -1800,7 +1677,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 295.9839245318163,
+			"x": 255.98392453181629,
 			"y": -579.6640912626568,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "#fff",
@@ -1813,14 +1690,14 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 256,
-			"versionNonce": 2046972230,
+			"version": 273,
+			"versionNonce": 176829818,
 			"isDeleted": false,
 			"id": "-Z4qCVt8EKG8tpmMHhBNm",
 			"fillStyle": "solid",
@@ -1829,7 +1706,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 295.9839245318163,
+			"x": 255.98392453181629,
 			"y": -538.5879534112416,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "#fff",
@@ -1842,14 +1719,14 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 310,
-			"versionNonce": 1526386202,
+			"version": 327,
+			"versionNonce": 1652127526,
 			"isDeleted": false,
 			"id": "tGacGLe4JGmeGA_F7hZAy",
 			"fillStyle": "solid",
@@ -1858,7 +1735,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 295.9839245318163,
+			"x": 255.98392453181629,
 			"y": -493.94364938306524,
 			"strokeColor": "#0a11d3",
 			"backgroundColor": "#fff",
@@ -1871,14 +1748,14 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 73,
-			"versionNonce": 24393862,
+			"version": 90,
+			"versionNonce": 895055418,
 			"isDeleted": false,
 			"id": "jL3WtXin",
 			"fillStyle": "solid",
@@ -1887,7 +1764,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 207.0979250679659,
+			"x": 167.0979250679659,
 			"y": -640,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
@@ -1899,7 +1776,7 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117094532,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1913,8 +1790,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 4029,
-			"versionNonce": 268131590,
+			"version": 4041,
+			"versionNonce": 2144051814,
 			"isDeleted": false,
 			"id": "YRC1U2QiEgJKKgkGvHlEJ",
 			"fillStyle": "solid",
@@ -1938,7 +1815,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2027,8 +1904,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1763,
-			"versionNonce": 96034394,
+			"version": 1775,
+			"versionNonce": 1845665530,
 			"isDeleted": false,
 			"id": "TziG3GAz_MtNvBzr3mm-L",
 			"fillStyle": "solid",
@@ -2052,7 +1929,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2097,8 +1974,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "line",
-			"version": 1850,
-			"versionNonce": 1406520390,
+			"version": 1862,
+			"versionNonce": 1614177702,
 			"isDeleted": false,
 			"id": "5suJzUgQNxtConkDFVRsj",
 			"fillStyle": "solid",
@@ -2122,7 +1999,7 @@ read liked artists from db ^K5T87cIB
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2167,8 +2044,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "ellipse",
-			"version": 4867,
-			"versionNonce": 1450214170,
+			"version": 4879,
+			"versionNonce": 822652858,
 			"isDeleted": false,
 			"id": "h3uAtJL-bkbnTGkEd3fel",
 			"fillStyle": "solid",
@@ -2195,14 +2072,14 @@ read liked artists from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680117070950,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 237,
-			"versionNonce": 1763726214,
+			"version": 249,
+			"versionNonce": 1155973350,
 			"isDeleted": false,
 			"id": "GcGzBIZhjbaIRF0FHECNG",
 			"fillStyle": "solid",
@@ -2224,14 +2101,14 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 287,
-			"versionNonce": 1986334682,
+			"version": 299,
+			"versionNonce": 1921951866,
 			"isDeleted": false,
 			"id": "esUUqBPVh2pLEFoTpDzUR",
 			"fillStyle": "solid",
@@ -2258,14 +2135,14 @@ read liked artists from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680117070950,
+			"updated": 1680121426547,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 340,
-			"versionNonce": 1511518918,
+			"version": 352,
+			"versionNonce": 1097446438,
 			"isDeleted": false,
 			"id": "YaYCyufaqt5Bv8uI0S_p4",
 			"fillStyle": "solid",
@@ -2287,14 +2164,14 @@ read liked artists from db ^K5T87cIB
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 107,
-			"versionNonce": 1772749978,
+			"version": 119,
+			"versionNonce": 710379834,
 			"isDeleted": false,
 			"id": "WLggru0m",
 			"fillStyle": "solid",
@@ -2324,7 +2201,7 @@ read liked artists from db ^K5T87cIB
 					"type": "arrow"
 				}
 			],
-			"updated": 1680117070950,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2338,8 +2215,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 184,
-			"versionNonce": 176182086,
+			"version": 368,
+			"versionNonce": 1873559398,
 			"isDeleted": false,
 			"id": "aCYDOBI4KTcWnn5NnD_vF",
 			"fillStyle": "solid",
@@ -2348,12 +2225,12 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -150.3758309586441,
-			"y": -389.0183401652162,
+			"x": -147.7861132218446,
+			"y": -409.0183401652162,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
-			"width": 169.6241690413559,
-			"height": 129.01834016521622,
+			"width": 155.5759568958483,
+			"height": 148.01834016521622,
 			"seed": 2086301192,
 			"groupIds": [],
 			"roundness": {
@@ -2365,17 +2242,17 @@ read liked artists from db ^K5T87cIB
 					"id": "ZXc52TVH"
 				}
 			],
-			"updated": 1680117079245,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "gLUVAYHf1sLMQdIcf0NVH",
-				"focus": -0.20079380737029526,
+				"focus": -0.08997449297798636,
 				"gap": 9.783050783105011
 			},
 			"endBinding": {
-				"elementId": "31GnDd8Hh6fm9kwsxYrnb",
-				"focus": -0.7166311744393717,
+				"elementId": "JkbEp2300cPZklCzIl8T5",
+				"focus": -0.6822389663705449,
 				"gap": 1
 			},
 			"lastCommittedPoint": null,
@@ -2387,15 +2264,15 @@ read liked artists from db ^K5T87cIB
 					0
 				],
 				[
-					-169.6241690413559,
-					129.01834016521622
+					-155.5759568958483,
+					148.01834016521622
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 28,
-			"versionNonce": 972185946,
+			"version": 41,
+			"versionNonce": 1606832634,
 			"isDeleted": false,
 			"id": "ZXc52TVH",
 			"fillStyle": "solid",
@@ -2404,8 +2281,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -278.9881468343907,
-			"y": -339.428814617914,
+			"x": -279.62787977375564,
+			"y": -336.5091700826081,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
 			"width": 88.87992858886719,
@@ -2414,7 +2291,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2428,8 +2305,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 634,
-			"versionNonce": 1575123270,
+			"version": 852,
+			"versionNonce": 603677350,
 			"isDeleted": false,
 			"id": "HQg2Fu9g9Jls_ySgAH4W4",
 			"fillStyle": "solid",
@@ -2438,12 +2315,12 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -14.180442202365953,
-			"y": -376.8145335204383,
+			"x": -57.66267483717405,
+			"y": -393.5412125954691,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
-			"width": 134.18044220236595,
-			"height": 116.81453352043832,
+			"width": 0.8232510721231279,
+			"height": 132.54121259546912,
 			"seed": 809022472,
 			"groupIds": [],
 			"roundness": {
@@ -2455,17 +2332,17 @@ read liked artists from db ^K5T87cIB
 					"id": "DFxgiu6L"
 				}
 			],
-			"updated": 1680117070950,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "LfMXEoqPlBVFm9WV4TBjb",
-				"focus": -0.40577554819520206,
-				"gap": 14.236130725659166
+				"focus": 1.6037102595577823,
+				"gap": 13.261931123780236
 			},
 			"endBinding": {
-				"elementId": "vN7biOZpjV350Otfa3elx",
-				"focus": 0.5287591105228108,
+				"elementId": "uywJj4DqT4pwhZ4EeLJHu",
+				"focus": 0.011507766972390697,
 				"gap": 1
 			},
 			"lastCommittedPoint": null,
@@ -2477,15 +2354,15 @@ read liked artists from db ^K5T87cIB
 					0
 				],
 				[
-					134.18044220236595,
-					116.81453352043832
+					-0.8232510721231279,
+					132.54121259546912
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 27,
-			"versionNonce": 1116808730,
+			"version": 41,
+			"versionNonce": 903742138,
 			"isDeleted": false,
 			"id": "DFxgiu6L",
 			"fillStyle": "solid",
@@ -2494,8 +2371,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -124.50264832218727,
-			"y": -332.75661601695623,
+			"x": -6.279441393187739,
+			"y": -332.20593888887925,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
 			"width": 107.35990905761719,
@@ -2504,7 +2381,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070950,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2518,8 +2395,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 1362,
-			"versionNonce": 1192190086,
+			"version": 1389,
+			"versionNonce": 553917926,
 			"isDeleted": false,
 			"id": "hR7zsss8PTC7_gMevkOWE",
 			"fillStyle": "solid",
@@ -2529,11 +2406,11 @@ read liked artists from db ^K5T87cIB
 			"opacity": 100,
 			"angle": 0,
 			"x": 40,
-			"y": 200,
+			"y": 220,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
 			"width": 78.46229969668485,
-			"height": 162.6428238961243,
+			"height": 142.64282389612424,
 			"seed": 33032968,
 			"groupIds": [],
 			"roundness": {
@@ -2545,13 +2422,17 @@ read liked artists from db ^K5T87cIB
 					"id": "EL0ELnj2"
 				}
 			],
-			"updated": 1680117070950,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
-			"startBinding": null,
+			"startBinding": {
+				"elementId": "uywJj4DqT4pwhZ4EeLJHu",
+				"focus": -0.33142831254908867,
+				"gap": 1
+			},
 			"endBinding": {
 				"elementId": "WLggru0m",
-				"focus": 1.6921086315947365,
+				"focus": 1.692108631594735,
 				"gap": 15.403908170103676
 			},
 			"lastCommittedPoint": null,
@@ -2564,18 +2445,18 @@ read liked artists from db ^K5T87cIB
 				],
 				[
 					14.167216572332336,
-					90.37326698463045
+					70.37326698463045
 				],
 				[
 					-64.29508312435252,
-					162.6428238961243
+					142.64282389612424
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 38,
-			"versionNonce": 2088325850,
+			"version": 51,
+			"versionNonce": 2000788346,
 			"isDeleted": false,
 			"id": "EL0ELnj2",
 			"fillStyle": "solid",
@@ -2584,8 +2465,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -52.86471545646782,
-			"y": 280.7749801673425,
+			"x": -52.90268394036298,
+			"y": 278.37326698463045,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
 			"width": 214.13980102539062,
@@ -2594,7 +2475,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070951,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2608,8 +2489,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 600,
-			"versionNonce": 547184582,
+			"version": 628,
+			"versionNonce": 1272148262,
 			"isDeleted": false,
 			"id": "5QNi64jYIrC4wKm7-hOeU",
 			"fillStyle": "solid",
@@ -2618,7 +2499,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -179.99444957275455,
+			"x": -160,
 			"y": 200,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
@@ -2635,13 +2516,13 @@ read liked artists from db ^K5T87cIB
 					"id": "LsiLwhAR"
 				}
 			],
-			"updated": 1680117070951,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
 			"endBinding": {
 				"elementId": "h3uAtJL-bkbnTGkEd3fel",
-				"focus": -1.2140153791286263,
+				"focus": -1.2140153791286266,
 				"gap": 6.3488788028375005
 			},
 			"lastCommittedPoint": null,
@@ -2649,23 +2530,23 @@ read liked artists from db ^K5T87cIB
 			"endArrowhead": "arrow",
 			"points": [
 				[
-					0.005550427245463174,
+					0,
 					0
 				],
 				[
-					-28.866985475299558,
+					-48.86143504805412,
 					90.08686292109248
 				],
 				[
-					63.13301452470049,
+					43.13856495194594,
 					164.74979263549
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 27,
-			"versionNonce": 1245570970,
+			"version": 40,
+			"versionNonce": 573840442,
 			"isDeleted": false,
 			"id": "LsiLwhAR",
 			"fillStyle": "solid",
@@ -2674,8 +2555,8 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -293.4357374167496,
-			"y": 279.12155885791924,
+			"x": -293.7613679093822,
+			"y": 278.08686292109246,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
 			"width": 169.79986572265625,
@@ -2684,7 +2565,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070951,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2698,8 +2579,8 @@ read liked artists from db ^K5T87cIB
 		},
 		{
 			"type": "arrow",
-			"version": 1187,
-			"versionNonce": 1856599814,
+			"version": 1213,
+			"versionNonce": 1607883878,
 			"isDeleted": false,
 			"id": "KrMrzTMvl-YM_tTPHvQBH",
 			"fillStyle": "solid",
@@ -2712,8 +2593,8 @@ read liked artists from db ^K5T87cIB
 			"y": 423.31135159766734,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
-			"width": 261.26433382028307,
-			"height": 207.60389320054023,
+			"width": 225.77367572876244,
+			"height": 203.31135159766734,
 			"seed": 739774472,
 			"groupIds": [],
 			"roundness": {
@@ -2725,18 +2606,18 @@ read liked artists from db ^K5T87cIB
 					"id": "K5T87cIB"
 				}
 			],
-			"updated": 1680117070951,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "esUUqBPVh2pLEFoTpDzUR",
-				"focus": 2.2603593673316045,
+				"focus": 2.361966777521645,
 				"gap": 12.11524842563794
 			},
 			"endBinding": {
-				"elementId": "vN7biOZpjV350Otfa3elx",
-				"gap": 2.1648575002661046,
-				"focus": -0.5970886360908505
+				"elementId": "N1YjtrVEvJ1lUa2DYsx_c",
+				"focus": -0.3994169096209912,
+				"gap": 1
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2747,19 +2628,19 @@ read liked artists from db ^K5T87cIB
 					0
 				],
 				[
-					225.86206896551724,
-					-36.52434456928836
+					185.77367572876244,
+					-43.31135159766734
 				],
 				[
-					261.26433382028307,
-					-207.60389320054023
+					225.77367572876244,
+					-203.31135159766734
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 59,
-			"versionNonce": 1142023258,
+			"version": 72,
+			"versionNonce": 1956152570,
 			"isDeleted": false,
 			"id": "K5T87cIB",
 			"fillStyle": "solid",
@@ -2768,7 +2649,7 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 106.7884741083368,
+			"x": 106.78847410833681,
 			"y": 362.787007028379,
 			"strokeColor": "#000000",
 			"backgroundColor": "#228be6",
@@ -2778,7 +2659,7 @@ read liked artists from db ^K5T87cIB
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1680117070951,
+			"updated": 1680121426548,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2791,14 +2672,14 @@ read liked artists from db ^K5T87cIB
 			"originalText": "read liked artists from db"
 		},
 		{
-			"id": "Y-SWb_YoGmSuep5bx-jDz",
-			"type": "arrow",
-			"x": 347.2247389120116,
-			"y": 51.718488721880874,
-			"width": 157.94106056683756,
-			"height": 105.2940403778918,
+			"id": "uywJj4DqT4pwhZ4EeLJHu",
+			"type": "image",
+			"x": -172.78311601742155,
+			"y": -260,
+			"width": 222.99999999999997,
+			"height": 479.9999999999999,
 			"angle": 0,
-			"strokeColor": "#000000",
+			"strokeColor": "transparent",
 			"backgroundColor": "#228be6",
 			"fillStyle": "solid",
 			"strokeWidth": 1,
@@ -2806,42 +2687,40 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [],
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1073110618,
-			"version": 30,
-			"versionNonce": 699442758,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1680117070951,
+			"roundness": null,
+			"seed": 360848826,
+			"version": 77,
+			"versionNonce": 584703910,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "HQg2Fu9g9Jls_ySgAH4W4",
+					"type": "arrow"
+				},
+				{
+					"id": "hR7zsss8PTC7_gMevkOWE",
+					"type": "arrow"
+				}
+			],
+			"updated": 1680121426549,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					157.94106056683756,
-					105.2940403778918
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"status": "pending",
+			"fileId": "d5baf622df37802ae2c751285c61737146edca54",
+			"scale": [
+				1,
+				1
+			]
 		},
 		{
-			"id": "H-_OTZ7iFTxS5jnKg7SeC",
-			"type": "arrow",
-			"x": 397.80717007394014,
-			"y": 46.55701615433719,
-			"width": 75.3574994861383,
-			"height": 120.77845808052297,
+			"id": "N1YjtrVEvJ1lUa2DYsx_c",
+			"type": "image",
+			"x": 80,
+			"y": -260,
+			"width": 223.00000000000003,
+			"height": 480,
 			"angle": 0,
-			"strokeColor": "#000000",
+			"strokeColor": "transparent",
 			"backgroundColor": "#228be6",
 			"fillStyle": "solid",
 			"strokeWidth": 1,
@@ -2849,32 +2728,67 @@ read liked artists from db ^K5T87cIB
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [],
-			"roundness": {
-				"type": 2
-			},
-			"seed": 496028186,
-			"version": 22,
-			"versionNonce": 63457562,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1680117070951,
+			"roundness": null,
+			"seed": 212426598,
+			"version": 61,
+			"versionNonce": 2012337594,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "hR7zsss8PTC7_gMevkOWE",
+					"type": "arrow"
+				},
+				{
+					"id": "KrMrzTMvl-YM_tTPHvQBH",
+					"type": "arrow"
+				}
+			],
+			"updated": 1680121426549,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					75.3574994861383,
-					120.77845808052297
-				]
+			"status": "pending",
+			"fileId": "c2b320a29106670dc1576089f3fd555d63b20d5c",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "JkbEp2300cPZklCzIl8T5",
+			"type": "image",
+			"x": -420,
+			"y": -260,
+			"width": 223,
+			"height": 480,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "#228be6",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"roundness": null,
+			"seed": 336264698,
+			"version": 90,
+			"versionNonce": 420149990,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "aCYDOBI4KTcWnn5NnD_vF",
+					"type": "arrow"
+				}
 			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"updated": 1680121426549,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "f8f828819d7ea9a454513d98c953044f0893a519",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -2892,10 +2806,10 @@ read liked artists from db ^K5T87cIB
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 682.6461372777183,
-		"scrollY": 703.3451574747647,
+		"scrollX": 723.6064483005105,
+		"scrollY": 756.7840118791694,
 		"zoom": {
-			"value": 0.8596959652750678
+			"value": 0.6759558310434948
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
